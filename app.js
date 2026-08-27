@@ -7,6 +7,7 @@ const TAREAS = [
 function actualizarContador() {
   const pendientes = TAREAS.filter(function (t) {
     return !t.hecha;
+    
   }).length;
   document.querySelector("#contador").textContent = pendientes + " pendientes";
 }
