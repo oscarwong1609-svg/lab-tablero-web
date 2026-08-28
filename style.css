@@ -23,6 +23,13 @@ h1 {
   margin: 0 0 16px;
 }
 
+.contador {
+  font-family: monospace;
+  font-size: 13px;
+  color: var(--acento);
+  margin: 0 0 16px;
+}
+
 #lista {
   list-style: none;
   margin: 0;
